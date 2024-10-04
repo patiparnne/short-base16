@@ -1,0 +1,27 @@
+{
+  "name": "short-base16",
+  "version": "1.0.2",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/armespavong/short-base16"
+  },
+  "keywords": [
+    "base16",
+    "shorten",
+    "short base16",
+    "unicode",
+    "utf"
+  ],
+  "author": "Patiparnne Vongchompue",
+  "license": "ISC",
+  "description": "This library uses Unicode to shorten base16 strings into half their length and also provides functionality to unshorten them.",
+  "devDependencies": {
+    "@types/node": "^22.7.4",
+    "typescript": "^5.6.2"
+  }
+}
